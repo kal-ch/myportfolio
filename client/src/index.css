@@ -1,0 +1,59 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+section { max-width: 900px; margin: 0 auto; padding: 4rem 1.5rem; }
+h1 { font-size: 2.8rem; }
+h2 { font-size: 1.8rem; margin-bottom: 1rem; color: #38bdf8; }
+a { color: #38bdf8; }
+
+#hero {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#hero p { font-size: 1.2rem; margin: 0.5rem 0 1.5rem; }
+#hero a {
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  width: fit-content;
+}
+
+#skills ul { list-style: none; display: flex; flex-wrap: wrap; gap: 0.6rem; }
+#skills li { background: #1e293b; padding: 0.4rem 1rem; border-radius: 20px; }
+
+#projects > div {
+  background: #1e293b;
+  padding: 1.2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+form { display: flex; flex-direction: column; gap: 0.8rem; }
+input, textarea {
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: #e2e8f0;
+  font-size: 1rem;
+}
+textarea { min-height: 120px; }
+button {
+  background: #38bdf8;
+  color: #0f172a;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
